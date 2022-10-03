@@ -9,7 +9,7 @@
 
         <variable
             name="UiColor"
-            type="com.rentguruz.app.model.display.ThemeColors" />
+            type="com.rentguruz.app.b2b.alsalaam.model.display.ThemeColors" />
     </data>
 <androidx.constraintlayout.widget.ConstraintLayout
     android:layout_width="match_parent"
@@ -84,7 +84,7 @@
                     android:layout_marginLeft="15dp"
                     android:text="Create Your Profile"
                     android:textAllCaps="false"
-                    android:textColor="@color/topcolor"
+                    android:textColor="@{Color.parseColor(UiColor.primary)}"
                     android:textSize="22dp"
                     android:theme="@style/texttheme" />
 
@@ -97,6 +97,7 @@
             android:layout_height="match_parent"
             android:layout_below="@id/createprofile"
             android:layout_above="@+id/lbl_enter_details"
+            android:backgroundTint="@{Color.parseColor(UiColor.AddtionalSecondColour)}"
             android:background="@drawable/curve_box">
 
             <LinearLayout

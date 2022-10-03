@@ -11,7 +11,9 @@
 
     <color name="jvm">@android:color/background_dark</color>
 
-    <color name="testsampleee" format="reference"  />
+    <color name="testsampleee" format="color"  />
 
     <attr name="theme_color" format="reference" />
+
+    <attr name="colorCustom1" format="color" />
 </resources>

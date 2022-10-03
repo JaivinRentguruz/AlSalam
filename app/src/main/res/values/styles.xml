@@ -341,7 +341,7 @@
     </style>
 
     <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
-        <item name="colorAccent">@color/red</item>
+        <item name="colorAccent">#0155C4</item>
 
      <!--<item name="android:textColorPrimaryInverse">@color/red</item>
         <item name="android:textColorSecondaryInverse">@color/red</item>

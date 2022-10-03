@@ -786,9 +786,9 @@
                         custom:disable_date_color="#ABABAB"
                         custom:editable="true"
                         custom:enable_time_selection="false"
-                        custom:range_color="#BCD3A0"
-                        custom:selected_date_circle_color="@color/footerButtonBC"
-                        custom:title_color="@color/selected_dot"
+                        custom:range_color="@color/ldate"
+                        custom:selected_date_circle_color="@color/sdate"
+                        custom:title_color="@color/regtcolor"
                         custom:week_offset="0">
                     </com.archit.calendardaterangepicker.customviews.DateRangeCalendarView>
                 </LinearLayout>
